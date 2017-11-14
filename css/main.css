@@ -1,0 +1,231 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 14px;
+    background: rgb(0, 0, 0);
+}
+
+#socialNav {
+    margin: 0px;
+    padding: 0px;
+}
+
+#socialNav ul {
+    list-style-type: none;
+    text-align: left;
+    border-radius: 0px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#socialNav ul li {
+    display: inline;
+}
+
+#socialNav ul li a {
+    color: aliceblue;
+    font-size: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+socialnav ul li a i {
+    font-size: 120%;
+}
+
+#email {
+    float: right;
+    clear: right;
+    text-align: right;
+}
+
+#email a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+header {
+    margin: 0px;
+    padding: 20px 0px;
+    height: 50px;
+    background-color: rgb(29, 47, 65);
+}
+
+#secondaryHeader {
+    margin: 0px;
+    padding: 0px 150px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid #2e4b69;
+}
+
+header img {
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+
+nav ul {
+    margin: 0px;
+    height: auto;
+    background-color: rgb(45, 72, 100);
+}
+
+#navbar {
+    margin: 0px;
+    border-radius: 0px;
+    background-color: rgb(45, 72, 100);
+    border-bottom: 1px solid #416a94;
+}
+
+#navbar ul {
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 0px;
+}
+
+#navbar ul li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+#navbar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main {
+    margin: 0px 450px 0px 150px;
+    padding: 20px;
+    font-size: 110%;
+    background: rgb(31, 34, 39);
+}
+
+.wrapper {
+    margin: 0px 150px;
+    padding: 20px;
+    font-size: 110%;
+    background: rgb(31, 34, 39);
+}
+
+.main h1 {
+    color: rgb(255, 255, 255);
+    font-size: 120%;
+}
+
+.main p {
+    color: rgb(156, 164, 177);
+}
+
+.sideRight {
+    margin: 0px 150px 0px 0px;
+    padding: 10px 20px 20px;
+    font-size: 105%;
+    float: right;
+    width: 260px;
+    clear: right;
+    background: rgb(46, 49, 56);
+}
+
+.sideRight p,
+.sideRight h2 {
+    text-align: right;
+}
+
+.sideRight h2 {
+    color: lightslategray;
+    font-size: 120%;
+}
+
+.sideRight p {
+    color: rgb(156, 164, 177);
+    font-size: 90%;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        width: 300px;
+        margin: auto;
+        display: block;
+    }
+    body {
+        margin: 0px;
+        font-family: sans-serif;
+        font-size: 14px;
+        background: rgb(0, 0, 0);
+    }
+    header {
+        margin: 0px;
+        padding: 10px 0px;
+        height: 50px;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(73, 118, 163);
+        background-color: rgb(29, 47, 65);
+    }
+    #secondaryHeader {
+        margin: 0px;
+        padding: 0px;
+        height: 35px;
+        background-color: rgb(0, 0, 0);
+        border:none!important;
+    }
+    nav {
+        margin: 0px;
+        height: 35px;
+        background-color: rgb(45, 72, 100);
+    }
+    .main {
+        margin: 0px 200px 0px 0px;
+        padding: 20px;
+        font-size: 110%;
+        background: rgb(31, 34, 39);
+    }
+    .wrapper {
+        margin: 0px;
+        padding: 20px;
+        font-size: 110%;
+        background: rgb(31, 34, 39);
+    }
+    .main h1 {
+        color: rgb(255, 255, 255);
+        font-size: 120%;
+    }
+    .main p {
+        color: rgb(156, 164, 177);
+    }
+    .sideRight {
+        margin: 0px;
+        padding: 10px 20px 20px;
+        font-size: 105%;
+        float: right;
+        width: 160px;
+        clear: right;
+        background: rgb(46, 49, 56);
+    }
+    .sideRight p,
+    .sideRight h2 {
+        text-align: right;
+    }
+    .sideRight h2 {
+        color: lightslategray;
+        font-size: 120%;
+    }
+    .sideRight p {
+        color: rgb(156, 164, 177);
+        font-size: 90%;
+    }
+    #navbar ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 85%;
+        font-weight: 600;
+    }
+    #navbar ul li {
+        display: inline;
+        padding: 0px 5px;
+    }
+}
